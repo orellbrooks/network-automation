@@ -16,9 +16,9 @@ def find_numbers(text):
   
     for word in clean_data:
         if word.isdigit():
-            output.appendint((word))
+            output.append(int(word))
 
     return output
     
 
-print(finding_numbers(input))
+print(find_numbers(input))
